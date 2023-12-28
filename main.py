@@ -51,15 +51,11 @@ if __name__ == '__main__':
         y = int(input("Yamuğun yüksekliği: "))
         yamuk(a, u, y)
 
-    elif secim == 4:
-        k = int(input("Paralel kenarın alt taban uzunluğu: "))
-        y = int(input("Paralel kenarın yüksekliği: "))
-        paralelkenar(k, y)
-
-    elif secim == 5:
-        a = int(input("Eşkenar dörtgenin alt kenar uzunluğu: "))
-        y = int(input("Eşkenar dörtgenin yan kenar uzunluğu: "))
-        eskenardortgen(a, y)
+    elif secim == 3:
+        a = int(input("Yamuğun alt taban uzunuğu: "))
+        u = int(input("Yamuğun üst taban uzunuğu: "))
+        y = int(input("Yamuğun yüksekliği: "))
+        yamuk(a, u, y)
 
     else:
         print("Sadece belirtilen sayılardan birini giriniz.")
