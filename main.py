@@ -56,6 +56,12 @@ if __name__ == '__main__':
         u = int(input("Yamuğun üst taban uzunuğu: "))
         y = int(input("Yamuğun yüksekliği: "))
         yamuk(a, u, y)
+    
+    elif secim == 4:
+        a = int(input("Yamuğun alt taban uzunuğu: "))
+        u = int(input("Yamuğun üst taban uzunuğu: "))
+        y = int(input("Yamuğun yüksekliği: "))
+        yamuk(a, u, y)
 
     else:
         print("Sadece belirtilen sayılardan birini giriniz.")
